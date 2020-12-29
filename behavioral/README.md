@@ -1,4 +1,0 @@
-# Overview
-
-- Leadership
-- Management
