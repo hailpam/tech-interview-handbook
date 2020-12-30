@@ -5,7 +5,8 @@ A selection of problems to get familiar with recursion and its intricacies. Recu
 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
 - [Add Digits](https://leetcode.com/problems/add-digits/)
-- 
+- [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)
+- [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)
 
 ## Medium
 - [Subsets](https://leetcode.com/problems/subsets/)
