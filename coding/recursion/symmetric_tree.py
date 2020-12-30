@@ -44,6 +44,10 @@ class Solution(object):
                self.is_mirror(left.right, right.left)
 
     def is_symmetric(self, root):
+        """
+        Time Complexity ~O(N) as all nodes are visited
+        Space Complexity ~O(1) only recursive stack is used
+        """
         return self.is_mirror(root.left, root.right)
 
 def main():
@@ -53,6 +57,10 @@ def main():
     s.print_tree(root)
     print(s.is_symmetric(root))
     nums = [1,2,2,None,3,None,3]
+    root = s.build_tree(nums)
+    s.print_tree(root)
+    print(s.is_symmetric(root))
+    nums = [1,2,2,4,3,4,3]
     root = s.build_tree(nums)
     s.print_tree(root)
     print(s.is_symmetric(root))
