@@ -4,6 +4,8 @@ A selection of problems to get familiar with recursion and its intricacies. Recu
 ## Easy
 - [Symmetric Tree](https://leetcode.com/problems/symmetric-tree/)
 - [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/)
+- [Add Digits](https://leetcode.com/problems/add-digits/)
+- 
 
 ## Medium
 - [Subsets](https://leetcode.com/problems/subsets/)
