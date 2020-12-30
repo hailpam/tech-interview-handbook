@@ -8,6 +8,8 @@ A selection of problems to get familiar with recursion and its intricacies. Recu
 - [Construct the Rectangle](https://leetcode.com/problems/construct-the-rectangle/)
 - [Rectangle Overlap](https://leetcode.com/problems/rectangle-overlap/)
 - [Power of Three](https://leetcode.com/problems/power-of-three/)
+- [Power of Four](https://leetcode.com/problems/power-of-four/)
+- [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)
 
 ## Medium
 - [Subsets](https://leetcode.com/problems/subsets/)

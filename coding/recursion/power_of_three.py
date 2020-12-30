@@ -3,6 +3,8 @@
 
 class Solution(object):
     def is_power_of_three(self, n):
+        if n == 1:
+            return True
         if n != 0 and n % 3 == 0:
             if n / 3 == 1:
                 return True
