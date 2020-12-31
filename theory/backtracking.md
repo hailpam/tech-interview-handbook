@@ -47,5 +47,16 @@ move OUT
 
 On the model of a depth first search, the recursive algorithm tries to find viable solution to each and every step and backtracks to the previous point whenever it does not find its way through. The magic comes from playing with the call stack which guarantees the rolling and unrolling of the call stack according to the specific situation.
 
+## About Time Complexity
+
+Backtracking is often faster than the brute force approach/enumeration. The time complexity is very much dependent on the problem itself. Notable examples are:
+
+- Hamiltonian Cycle ~O(N!) in the worst case
+- WordBreak and StringSegment ~O(2^N)
+- NQueens ~O(N!)
+
+In general, it is important to account for the number of recursive steps and the amount of work for each and every recursive step.
+
 # References
 - [Backtracking Explained](https://medium.com/@andreaiacono/backtracking-explained-7450d6ef9e1a#:~:text=Backtracking%20is%20a%20general%20algorithm,completed%20to%20a%20valid%20solution.)
+- [Backtracking on Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
