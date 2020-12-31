@@ -9,6 +9,7 @@ class Solution(object):
             return
         
         for comb in combs[1:]:
+            # making a copy
             comb_cpy = list(comb)
             comb_cpy.append(nums[idx])
             combs.append(comb_cpy)
@@ -17,6 +18,10 @@ class Solution(object):
         self.combine(nums, combs, idx + 1)
 
     def subsets(self, nums):
+        """
+        Time Complexity ~O(N*2^N) for all items subsets need to be generated
+        Space Complexity ~O(N*2^N) final list has all subsets
+        """
         combs = [[]]
         
         self.combine(nums, combs)
@@ -27,9 +32,11 @@ def main():
     s = Solution()
     nums = [1,2,3]
     print(s.subsets(nums))
-    nums = [1,2,3, 4]
+    nums = [1,2,3,4]
     print(s.subsets(nums))
     nums = [0]
+    print(s.subsets(nums))
+    nums = [1,2]
     print(s.subsets(nums))
 
 if __name__ == '__main__':
