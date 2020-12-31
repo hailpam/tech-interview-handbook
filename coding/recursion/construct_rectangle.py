@@ -1,7 +1,7 @@
 
 # On Leetcode: https://leetcode.com/problems/construct-the-rectangle/
 
-# TBD - need to factor the area and then find the best fit
+# TBD - think about the recursive
 
 class Solution(object):
     def construct_rectangle(self, area):
