@@ -9,24 +9,25 @@ class Solution(object):
         s = sum(nums)
         return '%d' % s if s >= 10 else  '0%d' % s
 
-    def get_combinations(self, nums, combs, idx=0):
+    def get_combinations(self, nums, combs, n, idx=0):
         if idx < len(nums):
             combs_itr = []
             for comb in combs:
                 comb_cpy = list(comb)
                 comb_cpy.append(nums[idx])
-                combs_itr.append(comb_cpy)
+                if len(comb_cpy) <= n:
+                    combs_itr.append(comb_cpy)
             combs.extend(combs_itr)
-            self.get_combinations(nums, combs, idx + 1)
+            self.get_combinations(nums, combs, n, idx + 1)
 
     def binary_watch(self, n):
         hours = [1, 2, 4, 8]
         minutes = [1, 2, 4, 8, 16, 32]
 
         combs_hours = [[]]
-        self.get_combinations(hours, combs_hours)
+        self.get_combinations(hours, combs_hours, n)
         combs_minutes = [[]]
-        self. get_combinations(minutes, combs_minutes)
+        self. get_combinations(minutes, combs_minutes, n)
 
         combs = set()
         for comb_hour in combs_hours:
@@ -46,6 +47,8 @@ def main():
     n = 1
     print(sorted(s.binary_watch(n)))
     n = 2
+    print(sorted(s.binary_watch(n)))
+    n = 3
     print(sorted(s.binary_watch(n)))
 
 if __name__ == '__main__':
