@@ -10,5 +10,5 @@ Backtracking helps solving problems that deal with constraints meanwhile increme
 - [Subsets](https://leetcode.com/problems/subsets/)
 
 ## Hard
-- [Maze Solver]()
+- [Maze Solver](https://leetcode.com/problems/escape-a-large-maze/)
 - [Sudoky Solver](https://leetcode.com/problems/sudoku-solver/)
