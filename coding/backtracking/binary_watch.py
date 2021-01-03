@@ -1,5 +1,5 @@
 
-# Leetcode:
+# Leetcode: https://leetcode.com/problems/binary-watch/
 
 class Solution(object):
     def repr_hour(self, nums):

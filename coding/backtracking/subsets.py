@@ -1,5 +1,5 @@
 
-# On Leetcode:
+# On Leetcode: https://leetcode.com/problems/subsets/
 
 class Solution(object):
     def is_within_boundaries(self, idx, nums):
@@ -8,6 +8,7 @@ class Solution(object):
     def backtrack(self, nums, combs, idx=0, comb=[]):
         """
         It exploits a Tree structure using recursion, on the model of:
+
                        []
 
               [1]         [2]        [3]
@@ -15,6 +16,9 @@ class Solution(object):
           [1,2] [1,2] [2,3]
 
         [1,2,3]
+
+        Adopting a depth first approach, the subsets can be derived unrolling
+        systematically the stack upon a backtrack.
         """
         # get it in as combination, first stack operation
         combs.append(list(comb))
