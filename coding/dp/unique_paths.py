@@ -3,7 +3,7 @@
 
 class Solution(object):
     def __init__(self):
-        self.memo = {}
+        self.memo = {}                              # alternative solution: memo is a 2D array
 
     def unique_paths(self, m, n, cell=(0,0)):
         """
