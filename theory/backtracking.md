@@ -60,3 +60,4 @@ In general, it is important to account for the number of recursive steps and the
 # References
 - [Backtracking Explained](https://medium.com/@andreaiacono/backtracking-explained-7450d6ef9e1a#:~:text=Backtracking%20is%20a%20general%20algorithm,completed%20to%20a%20valid%20solution.)
 - [Backtracking on Wikipedia](https://en.wikipedia.org/wiki/Backtracking)
+- [Subsets/Permutations/Combinations](https://labuladong.gitbook.io/algo-en/iii.-algorithmic-thinking/subset_permutation_combination)

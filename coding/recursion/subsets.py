@@ -7,10 +7,10 @@ class Solution(object):
     def combine(self, nums, combs, idx=0):
         if idx > len(nums) - 1:
             return
-        
+        # based on the mathematical induction for which a
+        # solution can be built incrementally
         for comb in combs[1:]:
-            # making a copy
-            comb_cpy = list(comb)
+            comb_cpy = list(comb)   # making a copy
             comb_cpy.append(nums[idx])
             combs.append(comb_cpy)
         combs.append([nums[idx]])
