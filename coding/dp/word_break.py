@@ -50,5 +50,13 @@ def main():
     word_dict = ['it', 'is', 'a', 'good', 'day']
     print(x.word_break(s, word_dict, []))
 
+    s = "catsanddog"
+    word_dict = ["cats", "dog", "and"]
+    print(x.word_break(s, word_dict, []))
+
+    s = "catsanddog"
+    word_dict = ["and", "dog", "cats"]
+    print(x.word_break(s, word_dict, []))
+
 if __name__ == '__main__':
     main()
