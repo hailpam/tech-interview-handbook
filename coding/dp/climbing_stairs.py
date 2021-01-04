@@ -37,8 +37,10 @@ def main():
 
     n = 2
     print(s.climb_stairs(n))
+    s.memo = {}
     n = 3
     print(s.climb_stairs(n))
+    s.memo = {}
     n = 4
     """
     For 4, the recursion tree looks like:
@@ -51,6 +53,7 @@ def main():
     0 -1 
     """
     print(s.climb_stairs(n))
+    s.memo = {}
     n = 6
     print(s.climb_stairs(n))
 
