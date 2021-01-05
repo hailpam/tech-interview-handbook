@@ -25,6 +25,11 @@ def pretty_print(head):
 
 class Solution(object):
     def reverse(self, head, prev=None):
+        """
+        Instead or reversing, the build() might start iterating
+        from the very last item, accomplishing the same with a 
+        step less.
+        """
         if head == None:
             return prev
         
