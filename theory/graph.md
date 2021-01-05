@@ -2,6 +2,8 @@
 
 > In mathematics, graph theory is the study of graphs, which are mathematical structures used to model pairwise relations between objects. A graph in this context is made up of vertices (also called nodes or points) which are connected by edges (also called links or lines). A distinction is made between undirected graphs, where edges link two vertices symmetrically, and directed graphs, where edges link two vertices asymmetrically; see Graph (discrete mathematics) for more detailed definitions and for other variations in the types of graph that are commonly considered. Graphs are one of the prime objects of study in discrete mathematics.
 
+![Directed Vs Undirected Graphs](https://miro.medium.com/max/1400/1*J9U-CK1N6X7WBAnz_m04SQ.jpeg)
+
 ## Problems
 
 1. Enumeration
@@ -49,13 +51,35 @@ There are numerous problems arising especially from applications that have to do
 ### Adjacency List
 > Vertices are stored as records or objects, and every vertex stores a list of adjacent vertices. This data structure allows the storage of additional data on the vertices. Additional data can be stored if edges are also stored as objects, in which case each vertex stores its incident edges and each edge stores its incident vertices.
  
+![Adjacency List](https://miro.medium.com/max/1400/1*XPH-Z7fBfBT1mEcN03FOJA.jpeg)
 
 ### Ajacency Matrix
 > A two-dimensional matrix, in which the rows represent source vertices and columns represent destination vertices. Data on edges and vertices must be stored externally. Only the cost for one edge can be stored between each pair of vertices.
 
+![Adjacency Matrix](https://miro.medium.com/max/1000/1*bllOr7NiKf4YbNtqg1cEqA.jpeg)
+
 ### Incidence Matrix
 > A two-dimensional Boolean matrix, in which the rows represent the vertices and columns represent the edges. The entries indicate whether the vertex at a row is incident to the edge at a column.
 
+## Traversal Algorithms
+
+![DFS Vs BFS](https://miro.medium.com/max/1400/1*ri9EgM7xLmrZmywgwt96pQ.jpeg)
+
+![DFS Vs BFS Cont'd](https://miro.medium.com/max/1400/1*_v6x7az3pWGaBWYo-fYMwg.jpeg)
+
+### Depth-first Search
+
+> The DFS algorithm is much like solving a maze. If you’ve ever been to a real-life maze or found yourself solving one on paper, then you know that the trick to solving a maze centers around following a path until you can’t follow it anymore, and then backtracking and retracing your steps until you find another possible path to follow.
+
+![About DFS](https://miro.medium.com/max/1000/1*cskJKPVMALaDnD2WMyJENA.jpeg)
+### Breadth-first Search
+
+> the breadth-first search algorithm traverses broadly into a structure, by visiting neighboring sibling nodes before visiting children nodes. In both tree and graph traversal, the BFS algorithm implements a queue data structure.
+
+![About BFS](https://miro.medium.com/max/1000/1*uwLddOZZksio58lCixU-Dw.jpeg)
 # References
 - [Graph Theory](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)#:~:text=A%20graph%20data%20structure%20consists,pairs%20for%20a%20directed%20graph.)
 - [Graph Abstract Data Type](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)#:~:text=A%20graph%20data%20structure%20consists,pairs%20for%20a%20directed%20graph.)
+- [From Theory to Practice Representing Graph](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
+- [Depth-first Search](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13)
+- [Breadth-first Search](https://medium.com/basecs/going-broad-in-a-graph-bfs-traversal-959bd1a09255)
