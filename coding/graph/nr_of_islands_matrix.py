@@ -5,7 +5,7 @@
 class Solution(object):
     def get_directions(self, cell, m, n):
         directions = []
-
+        
         down = (cell[0] + 1, cell[1])
         if down[0] < m:
             directions.append(down)
