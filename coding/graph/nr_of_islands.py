@@ -82,5 +82,13 @@ def main():
     ]
     print(s.number_of_islands(grid))
 
+    grid = [
+        ["1","0","0","0","0"],
+        ["0","0","0","0","0"],
+        ["0","0","0","0","0"],
+        ["0","0","0","0","1"]
+    ]
+    print(s.number_of_islands(grid))
+
 if __name__ == '__main__':
     main()
