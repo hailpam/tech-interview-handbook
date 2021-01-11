@@ -13,10 +13,10 @@ class Solution(object):
         longest = 0
         for idx in range(1, len(nums)):
             if nums[idx - 1] != nums[idx]:
-                if nums[idx] - nums[idx - 1] == 1:
+                if nums[idx] - nums[idx - 1] == 1:  # 1 apart, let's count it
                     cntr += 1
-                    longest = max(longest, cntr)
-                else:
+                    longest = max(longest, cntr)    # iteratively track the longest sequence
+                else:                               # >1 apart, let's reset the count
                     cntr = 1
 
         return longest
