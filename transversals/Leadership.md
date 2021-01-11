@@ -3,7 +3,7 @@ Questions inspired by the Top 50 Leadership Questions & Answers on [CareerGuru](
 
 1. What are the most important values you demonstrate as a leader?
 2. How have you gained commitment from your team?
-3. How can a leader fail?  Give an example of that.
+3. How can a leader fail? Give an example of that.
 4. What is the difference between a Team leader and a Team manager?
 5. What is your greatest strength?
 7. How do you get others to accept your ideas?
