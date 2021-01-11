@@ -3,9 +3,16 @@
 
 class Solution(object):
     def visit(self, visiting, prereq, prereqs):
+        """
+        Time Complexity: ~O(N^2 + M), where N is the number of prerequisites and M is the number of courses
+        Space Complexity: ~O(M), where M is the number of courses
+
+        An optimization for this algorithm might leverage an adjacency list with O(1) access
+        reducing the looping on prerequisites, tradding off ~O(N) space.
+        """
         course = prereq[0]
         dep = prereq[1]
-        if dep in visiting:
+        if dep in visiting: # if it's the case, there is a loop (pointing back on the path)
             return False
         
         visiting.append(course)
