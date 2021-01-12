@@ -30,7 +30,10 @@ class Solution(object):
         merge the overlap and then extends with the non-overlapping.
 
         Time Complexity: ~O(MlogM), where M is the size of the merged list
-        Space Complexity: ~O(N)
+        Space Complexity: ~O(P), where P is intended as the longest overlapping
+                          or non-overlapping sequence
+
+        To be noted, the sorting can be avoided running a O(M) insertion algorithm
         """
         overlap = []
         non_overlap = []
