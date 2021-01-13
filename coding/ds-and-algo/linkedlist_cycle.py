@@ -13,14 +13,14 @@ class Solution(object):
     """
     def visit(self, slow, fast):
         if not slow or not fast:
-            return False
+            return False    # it means that we reached an end (no loop)
         next = fast.next    # got to double the increment
         if next:
             if slow.val == next.val:
                 return True
             return self.visit(slow.next, next.next)
         
-        return False
+        return False        # it means that we reached an end (no loop)
 
     def has_cycle(self, head):
         """
