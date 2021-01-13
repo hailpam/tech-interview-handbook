@@ -18,7 +18,7 @@ Questions inspired by the Top 50 Project Management Interview Questions & Answer
 15. What are the important processes for project integration management?
 16. What is a SOW? Statement of Work.
 17. What does Scope management involve?
-18. How should changes controlled?
+18. How should changes be controlled?
 19. What is Work Breakdown Structure (WBD) and how does it affect the work estimates of tasks/activities?
 20. How do you define a milestone?
 21. What are some techniques used for defining scope?
