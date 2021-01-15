@@ -57,11 +57,11 @@ def main():
     s.pretty_print(root)
     print(s.kth_smallest(root, k))
 
-    # array = [5, 3, 6, 2, 4, None, None, 1]
-    # k = 3
-    # root = s.build_tree(array)
-    # s.pretty_print(root)
-    # print(s.kth_smallest(root, k))
+    array = [5, 3, 6, 2, 4, None, None, 1]
+    k = 3
+    root = s.build_tree(array)
+    s.pretty_print(root)
+    print(s.kth_smallest(root, k))
 
 if __name__ == '__main__':
     main()
