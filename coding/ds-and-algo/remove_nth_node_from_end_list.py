@@ -1,7 +1,7 @@
 
 # On Leetcode: https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 
-class LinkedList(object):
+class ListNode(object):
     def __init__(self, val, next=None):
         self.val = val
         self.next = next
@@ -11,7 +11,7 @@ class Solution(object):
         if idx >= len(array):
             return None
         
-        head = LinkedList(array[idx])
+        head = ListNode(array[idx])
         head.next = self.build_linkedlist(array, idx + 1)
 
         return head
