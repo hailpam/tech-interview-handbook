@@ -24,9 +24,6 @@ class BinaryTree(object):
             self.pretty_print(root.left, idx + 1)
             self.pretty_print(root.right, idx + 1)
 
-#  0  1  2  3   4     5  6  7   8
-# [1, 2, 3, 11, None, 4, 5, 0, -1]
-
 class Codec(object):
     def __visit(self, root, data, idx=0):
         """
