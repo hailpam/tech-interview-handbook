@@ -26,6 +26,8 @@ TBD - Queue and Stack problems
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
+- [Leas-used Cache](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
+- [Implement Map](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
