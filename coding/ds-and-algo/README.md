@@ -11,6 +11,7 @@ TBD - Queue and Stack problems
 - [Maximum Depth of a Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/)
 - [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/)
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
+- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -20,7 +21,6 @@ TBD - Queue and Stack problems
 - [Reorder List](https://leetcode.com/problems/reorder-list/)
 - [Lowest Common Ancestor](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/)
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
-- [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [Add and Search Workds Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
