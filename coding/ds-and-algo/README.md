@@ -26,8 +26,14 @@ TBD - Queue and Stack problems
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [Leas-used Cache](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
+- [Least-used Cache](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
 - [Implement Map](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
+- [Implement Languange Interpreter](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
+- [Implement a Min Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
+- [Matching Delimiters](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
+- [Stack Ascending Sorting using a Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
+- [Implement a Queue from a Bag with 5 Elements](https://yangshun.github.io/tech-interview-handbook/algorithms/queue/)
+- [Queue Using 2 Stacks](https://yangshun.github.io/tech-interview-handbook/algorithms/queue/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
