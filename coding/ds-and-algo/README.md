@@ -25,6 +25,7 @@ TBD - Queue and Stack problems
 - [Add and Search Workds Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
 - [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+- [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
