@@ -24,8 +24,10 @@ TBD - Queue and Stack problems
 - [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [Add and Search Workds Data Structure](https://leetcode.com/problems/design-add-and-search-words-data-structure/)
 - [Implement Trie](https://leetcode.com/problems/implement-trie-prefix-tree/)
+- [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
 - [Find Median from Data Stream](https://leetcode.com/problems/find-median-from-data-stream/)
 - [Merge K Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/)
+- [Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/)
