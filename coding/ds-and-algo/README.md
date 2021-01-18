@@ -13,6 +13,7 @@ TBD - Queue and Stack problems
 - [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/)
 - [Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
+- [Implement a Min Stack](https://leetcode.com/problems/min-stack/)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -29,7 +30,6 @@ TBD - Queue and Stack problems
 - [Least-used Cache](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
 - [Implement Map](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
-- [Implement a Min Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Matching Delimiters](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Stack Ascending Sorting using a Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Implement a Queue from a Bag with 5 Elements](https://yangshun.github.io/tech-interview-handbook/algorithms/queue/)

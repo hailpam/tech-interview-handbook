@@ -21,7 +21,7 @@ class Solution(object):
         Evaluates the Reverse Polish Notation using a stack.
         """
         operators = ['+', '-', '*', '/']
-        stack = []
+        stack = []                      # use of a list as a stack
         for token in tokens:
             if token in operators:      # got to evaluate the operands
                 r_opnd = stack.pop()
