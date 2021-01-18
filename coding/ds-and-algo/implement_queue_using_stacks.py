@@ -48,5 +48,16 @@ def main():
     print(q.pop())      # return 1, queue is [2]
     print(q.empty())    # return False
 
+    q.push(11)
+    q.push(12)
+    q.push(13)
+    print(q.peek())     # return 2
+    print(q.pop())      # return 2, queue is [11, 12, 13]
+    print(q.empty())    # return False
+
+    print(q.peek())     # return 11
+    print(q.pop())      # return 11, queue is [12, 13]
+    print(q.empty())    # return False
+
 if __name__ == '__main__':
     main()
