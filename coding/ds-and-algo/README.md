@@ -15,6 +15,7 @@ TBD - Queue and Stack problems
 - [Subtree of Another Tree](https://leetcode.com/problems/subtree-of-another-tree/)
 - [Implement a Min Stack](https://leetcode.com/problems/min-stack/)
 - [Queue Using 2 Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
+- [Recent Counter](https://leetcode.com/problems/number-of-recent-calls/)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
@@ -33,7 +34,8 @@ TBD - Queue and Stack problems
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - [Matching Delimiters](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Stack Ascending Sorting using a Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
-- [Implement a Queue from a Bag with 5 Elements](https://yangshun.github.io/tech-interview-handbook/algorithms/queue/)
+- [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
