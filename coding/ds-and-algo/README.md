@@ -40,6 +40,7 @@ TBD - Queue and Stack problems
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 - [Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)
+- [Meeting Rooms](https://guides.codepath.com/compsci/Scheduling-Meeting-Rooms)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
