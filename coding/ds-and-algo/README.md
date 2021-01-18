@@ -17,6 +17,8 @@ TBD - Queue and Stack problems
 - [Queue Using 2 Stacks](https://leetcode.com/problems/implement-queue-using-stacks/)
 - [Recent Counter](https://leetcode.com/problems/number-of-recent-calls/)
 - [Moving Average in Data Stream](https://evelynn.gitbooks.io/google-interview/content/moving_average_from_data_stream.html)
+- [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
+- [Index Pairs of a String](https://medium.com/algorithm-and-datastructure/index-pairs-of-a-string-7b7c8306ead0)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
