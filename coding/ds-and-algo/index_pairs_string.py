@@ -54,7 +54,7 @@ class Solution(object):
                 if end != -1:
                     selection.append([start, end])
         
-        return selection
+        return sorted(selection)
 
 def main():
     s = Solution()
