@@ -28,7 +28,7 @@ TBD - Queue and Stack problems
 - [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
 - [Least-used Cache](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
 - [Implement Map](https://yangshun.github.io/tech-interview-handbook/algorithms/hash-table/)
-- [Implement Languange Interpreter](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
+- [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - [Implement a Min Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Matching Delimiters](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Stack Ascending Sorting using a Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
