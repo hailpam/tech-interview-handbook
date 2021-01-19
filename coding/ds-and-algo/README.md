@@ -20,6 +20,8 @@ TBD - Queue and Stack problems
 - [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 - [Index Pairs of a String](https://medium.com/algorithm-and-datastructure/index-pairs-of-a-string-7b7c8306ead0)
 
+- [Same Tree](https://leetcode.com/problems/same-tree/)
+
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
 - [Kth Smallest Elemets in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/)
@@ -37,11 +39,13 @@ TBD - Queue and Stack problems
 - [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/)
 - [Matching Delimiters](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
 - [Stack Ascending Sorting using a Stack](https://yangshun.github.io/tech-interview-handbook/algorithms/stack/)
-- [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 - [Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)
 - [Meeting Rooms](https://guides.codepath.com/compsci/Scheduling-Meeting-Rooms)
 - [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
+
+- [Replace Words](https://leetcode.com/problems/replace-words/)
+- [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
