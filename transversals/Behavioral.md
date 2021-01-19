@@ -44,3 +44,6 @@ To further expand on it, hereafter a collection of questions per area of compete
 3. Tell me about a time when you made sure a customer was pleased with your service.
 4. Describe a time when you had to interact with a difficult client. What was the situation, and how did you handle it?
 5. When you’re working with a large number of customers, it’s tricky to deliver excellent service to them all. How do you go about prioritizing your customers’ needs?
+
+# References
+- [Common Behavioral Questions from Tech Interview Handbook](https://yangshun.github.io/tech-interview-handbook/behavioral-questions)

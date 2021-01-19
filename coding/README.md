@@ -1,10 +1,39 @@
 # Coding
-A collection of solved problems useful to strengthen the preparation for thec coding interview. 
+A collection of solved problems useful to strengthen the preparation for the coding interview at big tech companies, also known as FANG (Facebook, Amazon, Netflix and Google).
+
+## Practice
+Coding is a highly intellectual task and requires mental clarity as well as communication for a peer to grasp the logic of someone's else code. For this reason, communication is very important, even more important if coupled to a structured way of addressing the problem at hand.
+
+Hereafter, a generic scheme to address coding problem, from the analysis to the coding.
+
+1. **Disambiguate** - analyze the text and ask questions looking at the inputs and outputs provided. Do not stuck with the first idea that bubbles up in your mind: even if the solution is immediately clear, reason through and make sure that you are not missing anything. Remember, the evil is in the details.
+
+2. **Identify Additional Test Cases** - looking a the inputs and outputs as well as already provided test cases, start thinking to your own. This helps disambiguate futher, for a better understanding of the problem and its intricacies.
+
+3. **Reason About the Solution** - start thinking about the solution as steps that you might do to solve it, avoid thinking immediately in terms of coding: this might be detrimental and bias your reasoning process. Think loudly, and use concrete examples from the inputs and outputs to validate the procdural steps taht you believe might work.
+
+4. **Describe Solution in Words** - once got a solution that works for the inputs and outputs, put it in words, this helps further clarify the contex and the successive implementation.
+
+5. **Coding and Communicating** - following the identified steps, start the implementation. During the implementation, as much as possible, try to delegate to helper functions the subparts of the problem which are specific to some processing that it is required in the main flow: doing so, the main flow of the code will be clear and well structured (modularity will help further in testing and debugging).
+
+6. **Debugging and Corner Cases** - once completed the implementation, make sure that it is right by debugging it visually using the inputs and outputs that have been identified. This step is fundamental to identify any corner case, as well as to discover bugs.
+
+7. **Identify Time and Space Complexity** - as you go with coding, being mindful of the time and space complexity. Leave comments, and then reuse those comments to build the overall time and space complexity of the written code.
+
+It is very important to leave comments in the code. This helps a lot to communicate design decisions as well as invariants according to the found solution.
+
+## Programming Language
+Like said, coding is a complex intellectual task. A Programming Language which facilitate the translation of high-level steps into working code is a sharp tool. 
+
+Languages like Python are ideal for their human-friendliness and rich toolbox of data structures and helper functions. For this reason, the solution to the problems addressed in this project is based on Python.
 
 ## Layout
+This project is a collection of already solved problems. Easy (warm ups), Medium and Hard problems are solved and commented in a way that it is easy to grasp the overall idea as well as logic.
+
 Each section reports the problems and related solutions, as well as the references to the theory behind it.
 
 ```bash
+coding/
 ├── README.md
 ├── array
 │   ├── README.md
@@ -55,6 +84,7 @@ Each section reports the problems and related solutions, as well as the referenc
 │   ├── find_most_competitive_subsequence.py
 │   ├── implement_heap.py
 │   ├── implement_lru_cache.py
+│   ├── implement_magic_dict.py
 │   ├── implement_map.py
 │   ├── implement_min_stack.py
 │   ├── implement_queue_using_stacks.py
@@ -67,15 +97,18 @@ Each section reports the problems and related solutions, as well as the referenc
 │   ├── longest_word_dict.py
 │   ├── lowest_common_ancestor_bst.py
 │   ├── lowest_common_ancestor_bt.py
+│   ├── match_camelcase.py
 │   ├── match_delimiters.py
 │   ├── max_depth_binarytree.py
 │   ├── max_path_sum_bt.py
 │   ├── merge_k_sorted_lists.py
 │   ├── merge_sorted_lists.py
+│   ├── min_nr_meeting_rooms.py
 │   ├── moving_average_stream.py
 │   ├── recent_counter.py
 │   ├── remove_nth_node_from_end_list.py
 │   ├── reorder_list.py
+│   ├── replace_words.py
 │   ├── serde_bt.py
 │   ├── sort_stack_with_stack.py
 │   ├── subtree_bt.py
@@ -105,5 +138,5 @@ Each section reports the problems and related solutions, as well as the referenc
     ├── subsets_2.py
     └── symmetric_tree.py
 
-6 directories, 93 files
+6 directories, 97 files
 ```
