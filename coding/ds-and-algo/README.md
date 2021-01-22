@@ -20,7 +20,6 @@ TBD - Queue and Stack problems
 - [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 - [Index Pairs of a String](https://medium.com/algorithm-and-datastructure/index-pairs-of-a-string-7b7c8306ead0)
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
-
 - [Same Tree](https://leetcode.com/problems/same-tree/)
 
 ## Medium
