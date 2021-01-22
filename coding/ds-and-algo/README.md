@@ -19,6 +19,7 @@ TBD - Queue and Stack problems
 - [Moving Average in Data Stream](https://evelynn.gitbooks.io/google-interview/content/moving_average_from_data_stream.html)
 - [Longest Word in Dictionary](https://leetcode.com/problems/longest-word-in-dictionary/)
 - [Index Pairs of a String](https://medium.com/algorithm-and-datastructure/index-pairs-of-a-string-7b7c8306ead0)
+- [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 
 - [Same Tree](https://leetcode.com/problems/same-tree/)
 
@@ -43,9 +44,9 @@ TBD - Queue and Stack problems
 - [Meeting Rooms](https://guides.codepath.com/compsci/Scheduling-Meeting-Rooms)
 - [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
 - [Replace Words](https://leetcode.com/problems/replace-words/)
+- [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
-- [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
