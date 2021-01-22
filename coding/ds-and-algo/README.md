@@ -42,8 +42,8 @@ TBD - Queue and Stack problems
 - [Magic Dictionary](https://leetcode.com/problems/implement-magic-dictionary/)
 - [Meeting Rooms](https://guides.codepath.com/compsci/Scheduling-Meeting-Rooms)
 - [Camelcase Matching](https://leetcode.com/problems/camelcase-matching/)
-
 - [Replace Words](https://leetcode.com/problems/replace-words/)
+
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 
