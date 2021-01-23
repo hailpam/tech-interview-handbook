@@ -72,7 +72,7 @@ class Solution(object):
         for _ in range(max_cnt):
             schedule.append(max_el)
 
-    def find_least_interval(self, tasks, n):
+    def find_least_interval(self, tasks, n, debug=True):
         """
         To disambiguate, the main idea of this algorithm is to find an efficient ordering
         of the tasks.
@@ -97,12 +97,17 @@ class Solution(object):
         
         max_el, max_cnt = self.get_next_max(frequency)
         schedule = self.build_schedule(max_el, max_cnt, n)      # got to prepare the schedule
-        print(schedule)
+
+        if debug:
+            print(schedule)
 
         while len(frequency) > 0:
             max_el, max_cnt = self.get_next_max(frequency)
             self.fillup_schedule(max_el, max_cnt, schedule)     # got to fill up the schedule
-        print(schedule)
+
+        if debug:
+            print(schedule)
+
         return len(schedule)
 
 def main():
