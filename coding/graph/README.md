@@ -11,8 +11,8 @@ Examples of important algorithms when it comes to Graphs are distance, search, c
 - [Pacific Atlantic Water Flow](https://leetcode.com/problems/pacific-atlantic-water-flow/)
 - [Course Scehdule](https://leetcode.com/problems/course-schedule/)
 - [Clone Graph](https://leetcode.com/problems/clone-graph/)
-
 - [Check if Graph is a Valid Tree](https://www.geeksforgeeks.org/check-given-graph-tree/)
+
 - [Number of Connected Components](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)
 ## Hard
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)

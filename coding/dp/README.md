@@ -11,7 +11,7 @@ See the theory section for more insights about DP.
 - [Word Break](https://leetcode.com/problems/word-break/)
 - [Coing Change](https://leetcode.com/problems/coin-change/) 
 - [Jump Game](https://leetcode.com/problems/jump-game/)
+- [House Robber](https://leetcode.com/problems/house-robber/)
 
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
-- [House Robber](https://leetcode.com/problems/house-robber/)
 - [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
