@@ -45,7 +45,6 @@ TBD - Queue and Stack problems
 - [Replace Words](https://leetcode.com/problems/replace-words/)
 - [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 - [Encode and Decode Tiny URL](https://leetcode.com/problems/encode-and-decode-tinyurl/)
-
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 
 ## Hard
