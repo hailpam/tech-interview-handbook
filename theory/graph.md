@@ -77,6 +77,15 @@ There are numerous problems arising especially from applications that have to do
 > the breadth-first search algorithm traverses broadly into a structure, by visiting neighboring sibling nodes before visiting children nodes. In both tree and graph traversal, the BFS algorithm implements a queue data structure.
 
 ![About BFS](https://miro.medium.com/max/1000/1*uwLddOZZksio58lCixU-Dw.jpeg)
+
+## Common Algorithms
+
+### Dijikstra
+
+### Kruskal
+
+### A* Serach
+
 # References
 - [Graph Theory](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)#:~:text=A%20graph%20data%20structure%20consists,pairs%20for%20a%20directed%20graph.)
 - [Graph Abstract Data Type](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)#:~:text=A%20graph%20data%20structure%20consists,pairs%20for%20a%20directed%20graph.)
