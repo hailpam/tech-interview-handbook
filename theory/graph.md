@@ -79,12 +79,127 @@ There are numerous problems arising especially from applications that have to do
 ![About BFS](https://miro.medium.com/max/1000/1*uwLddOZZksio58lCixU-Dw.jpeg)
 
 ## Common Algorithms
+In this section, a number of well-known algorithms are reported. Those algorithms are the ones that typically help solve problems on Graphs, so it is important to keep them in mind as an integral part of toolbox of algorithms and solution to be applied.
 
-### Dijikstra
+### Dijkstra (Shortest Path)
 
-### Kruskal
+![Sortherst Path Representation](https://upload.wikimedia.org/wikipedia/commons/5/57/Dijkstra_Animation.gif)
 
-### A* Serach
+> Dijkstra's algorithm (or Dijkstra's Shortest Path First algorithm, SPF algorithm is an algorithm for finding the shortest paths between nodes in a graph, which may represent, for example, road networks. It was conceived by computer scientist Edsger W. Dijkstra in 1956 and published three years later.
+
+> The algorithm exists in many variants. Dijkstra's original algorithm found the shortest path between two given nodes, but a more common variant fixes a single node as the "source" node and finds shortest paths from the source to all other nodes in the graph, producing a shortest-path tree.
+
+An illustration of the Dijikstra algorithm:
+
+![Illustration of Dijkstra Algorithm #1](https://upload.wikimedia.org/wikipedia/commons/2/23/Dijkstras_progress_animation.gif)
+
+![Illustration of Dijkstra Algorithm #2](https://upload.wikimedia.org/wikipedia/commons/e/e4/DijkstraDemo.gif)
+
+#### Pseudocode
+```
+1  function Dijkstra(Graph, source):
+2      dist[source] ← 0                           // Initialization
+3
+4      create vertex priority queue Q
+5
+6      for each vertex v in Graph:          
+7          if v ≠ source
+8              dist[v] ← INFINITY                 // Unknown distance from source to v
+9              prev[v] ← UNDEFINED                // Predecessor of v
+10
+11         Q.add_with_priority(v, dist[v])
+12
+13
+14     while Q is not empty:                      // The main loop
+15         u ← Q.extract_min()                    // Remove and return best vertex
+16         for each neighbor v of u:              // only v that are still in Q
+17             alt ← dist[u] + length(u, v)
+18             if alt < dist[v]
+19                 dist[v] ← alt
+20                 prev[v] ← u
+21                 Q.decrease_priority(v, alt)
+22
+23     return dist, prev
+```
+
+### Kruskal (Minimum Spanning Tree)
+
+![Minimum Spanning Tree Representation](https://upload.wikimedia.org/wikipedia/commons/b/bb/KruskalDemo.gif)
+
+> Kruskal's algorithm finds a minimum spanning forest of an undirected edge-weighted graph. If the graph is connected, it finds a minimum spanning tree. (A minimum spanning tree of a connected graph is a subset of the edges that forms a tree that includes every vertex, where the sum of the weights of all the edges in the tree is minimized. 
+
+> For a disconnected graph, a minimum spanning forest is composed of a minimum spanning tree for each connected component).
+
+> It is a greedy algorithm in graph theory as in each step it adds the next lowest-weight edge that will not form a cycle to the minimum spanning forest.
+
+#### Pseudocode
+```
+algorithm Kruskal(G) is
+    F:= ∅
+    for each v ∈ G.V do
+        MAKE-SET(v)
+    for each (u, v) in G.E ordered by weight(u, v), increasing do
+        if FIND-SET(u) ≠ FIND-SET(v) then
+            F:= F ∪ {(u, v)}
+            UNION(FIND-SET(u), FIND-SET(v))
+    return F
+```
+
+### A* Serach (Best-fit Search)
+
+![Representation of the Best-fit Search Algorithm](https://upload.wikimedia.org/wikipedia/commons/9/98/AstarExampleEn.gif)
+
+> A* (pronounced "A-star") is a graph traversal and path search algorithm, which is often used in many fields of computer science due to its completeness, optimality, and optimal efficiency. One major practical drawback is its O(b^d) space complexity, as it stores all generated nodes in memory. Thus, in practical travel-routing systems, it is generally outperformed by algorithms which can pre-process the graph to attain better performance, as well as memory-bounded approaches; however, A* is still the best solution in many cases.
+
+> A* is an informed search algorithm, or a best-first search, meaning that it is formulated in terms of weighted graphs: starting from a specific starting node of a graph, it aims to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). It does this by maintaining a tree of paths originating at the start node and extending those paths one edge at a time until its termination criterion is satisfied.
+
+> At each iteration of its main loop, A* needs to determine which of its paths to extend. It does so based on the cost of the path and an estimate of the cost required to extend the path all the way to the goal. Specifically, A* selects the path that minimizes f(n) = g(n) + h(n)  where n is the next node on the path, g(n) is the cost of the path from the start node to n, and h(n) is a heuristic function that estimates the cost of the cheapest path from n to the goal. A* terminates when the path it chooses to extend is a path from start to goal or if there are no paths eligible to be extended. The heuristic function is problem-specific. If the heuristic function is admissible, meaning that it never overestimates the actual cost to get to the goal, A* is guaranteed to return a least-cost path from start to goal.
+
+![Illustration of A* Algorithm 1](https://upload.wikimedia.org/wikipedia/commons/5/5d/Astar_progress_animation.gif)
+
+![Illustration of A* Algorithm 2](https://upload.wikimedia.org/wikipedia/commons/6/60/A%2A_Search_Example_on_North_American_Freight_Train_Network.gif)
+
+#### Pseudocode
+```
+// A* (star) Pathfinding
+// Initialize both open and closed list
+let the openList equal empty list of nodes
+let the closedList equal empty list of nodes
+// Add the start node
+put the startNode on the openList (leave it's f at zero)
+// Loop until you find the end
+while the openList is not empty
+    // Get the current node
+    let the currentNode equal the node with the least f value
+    remove the currentNode from the openList
+    add the currentNode to the closedList
+    // Found the goal
+    if currentNode is the goal
+        Congratz! You've found the end! Backtrack to get path
+    // Generate children
+    let the children of the currentNode equal the adjacent nodes
+    
+    for each child in the children
+        // Child is on the closedList
+        if child is in the closedList
+            continue to beginning of for loop
+        // Create the f, g, and h values
+        child.g = currentNode.g + distance between child and current
+        child.h = distance from child to end
+        child.f = child.g + child.h
+        // Child is already in openList
+        if child.position is in the openList's nodes positions
+            if the child.g is higher than the openList node's g
+                continue to beginning of for loop
+        // Add the child to the openList
+        add the child to the openList
+```
+
+### Dijkstra Vs A*
+
+| ![Dijkstra's](https://miro.medium.com/max/420/1*2jRCHqAbTCY7W7oG5ntMOQ.gif) | Dijkstra's. So taking a look at Dijkstra’s algorithm, we see that it just keeps searching. It has no idea which node is ‘best’, so it calculates paths for them all. |
+------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
+| ![A*](https://miro.medium.com/max/420/1*HppvOLfDxXqQRFn0Cv2dHQ.gif)         | With A*, we see that once we get past the obstacle, the algorithm prioritizes the node with the lowest f and the ‘best’ chance of reaching the end.          |
 
 # References
 - [Graph Theory](https://en.wikipedia.org/wiki/Graph_(abstract_data_type)#:~:text=A%20graph%20data%20structure%20consists,pairs%20for%20a%20directed%20graph.)
@@ -92,3 +207,7 @@ There are numerous problems arising especially from applications that have to do
 - [From Theory to Practice Representing Graph](https://medium.com/basecs/from-theory-to-practice-representing-graphs-cfd782c5be38)
 - [Depth-first Search](https://medium.com/basecs/deep-dive-through-a-graph-dfs-traversal-8177df5d0f13)
 - [Breadth-first Search](https://medium.com/basecs/going-broad-in-a-graph-bfs-traversal-959bd1a09255)
+- [Dijikstra's Algorithm](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+- [Kruskal's Algorithnm](https://en.wikipedia.org/wiki/Kruskal%27s_algorithm)
+- [A* Algorithm](https://en.wikipedia.org/wiki/A*_search_algorithm)
+- [Easy A* Pathfinding](https://medium.com/@nicholas.w.swift/easy-a-star-pathfinding-7e6689c7f7b2)
