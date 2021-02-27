@@ -71,6 +71,8 @@ class Solution(object):
 
         return combs
 
+# TBD - add priority for multiplication: ['1+0*5', '1-0*5', '1*0+5']
+
 def main():
     s = Solution()
 
