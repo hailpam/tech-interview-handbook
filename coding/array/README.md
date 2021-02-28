@@ -7,6 +7,7 @@ A selection of problems entailing working with arrays and sequences. A mix of ea
 - [Defanging IP Addresses](https://leetcode.com/problems/defanging-an-ip-address/)
 - [Check Equivalent String Arrays](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 - [Surface Area 3D Shape](https://leetcode.com/problems/surface-area-of-3d-shapes/)
+- [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)
 
 ## Medium
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)

@@ -46,6 +46,7 @@ TBD - Queue and Stack problems
 - [Find the Most Competitive Subsequence](https://leetcode.com/problems/find-the-most-competitive-subsequence/)
 - [Encode and Decode Tiny URL](https://leetcode.com/problems/encode-and-decode-tinyurl/)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
+- [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
