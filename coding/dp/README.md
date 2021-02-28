@@ -14,3 +14,4 @@ See the theory section for more insights about DP.
 - [House Robber](https://leetcode.com/problems/house-robber/)
 - [Combination Sum](https://leetcode.com/problems/combination-sum-iv/)
 - [Longest Increasing Subsequence](https://leetcode.com/problems/longest-increasing-subsequence/)
+- [Hand of Straights](https://leetcode.com/problems/hand-of-straights/)
