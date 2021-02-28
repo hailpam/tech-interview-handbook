@@ -15,6 +15,7 @@ A selection of problems entailing working with arrays and sequences. A mix of ea
 - [Insert Interval](https://leetcode.com/problems/insert-interval/)
 - [Non-overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
+- [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
 
 ## Hard
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)

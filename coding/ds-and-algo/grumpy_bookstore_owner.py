@@ -42,7 +42,7 @@ def main():
     customers = [1,0,1,2,1,1,7,5]
     grumpy = [0,1,0,1,0,1,0,1]
     x = 3
-    print(s.max_satisfied(customers, grumpy, x))
+    print(s.max_satisfied(customers, grumpy, x))    # 16
 
 if __name__ == '__main__':
     main()
