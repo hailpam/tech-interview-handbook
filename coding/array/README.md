@@ -4,6 +4,7 @@ A selection of problems entailing working with arrays and sequences. A mix of ea
 ## Easy
 - [Two Sum](https://leetcode.com/problems/two-sum/)
 - [Valid Palindrom](https://leetcode.com/problems/valid-palindrome/)
+- [Defanging IP Addresses](https://leetcode.com/problems/defanging-an-ip-address/)
 
 ## Medium
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
