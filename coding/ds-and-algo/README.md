@@ -21,6 +21,7 @@ TBD - Queue and Stack problems
 - [Index Pairs of a String](https://medium.com/algorithm-and-datastructure/index-pairs-of-a-string-7b7c8306ead0)
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 - [Same Tree](https://leetcode.com/problems/same-tree/)
+- [Search in a BST](https://leetcode.com/problems/search-in-a-binary-search-tree/)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
