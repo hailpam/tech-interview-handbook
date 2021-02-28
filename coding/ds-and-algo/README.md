@@ -49,6 +49,7 @@ TBD - Queue and Stack problems
 - [Encode and Decode Tiny URL](https://leetcode.com/problems/encode-and-decode-tinyurl/)
 - [Task Scheduler](https://leetcode.com/problems/task-scheduler/)
 - [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
+- [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
