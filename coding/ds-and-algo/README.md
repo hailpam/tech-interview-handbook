@@ -22,6 +22,7 @@ TBD - Queue and Stack problems
 - [Is Subsequence](https://leetcode.com/problems/is-subsequence/)
 - [Same Tree](https://leetcode.com/problems/same-tree/)
 - [Search in a BST](https://leetcode.com/problems/search-in-a-binary-search-tree/)
+- [Range Sum in a BST](https://leetcode.com/problems/range-sum-of-bst/)
 
 ## Medium
 - [Construct Binary Tree from Preorder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/)
