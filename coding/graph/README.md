@@ -14,6 +14,7 @@ Examples of important algorithms when it comes to Graphs are distance, search, c
 - [Check if Graph is a Valid Tree](https://www.geeksforgeeks.org/check-given-graph-tree/)
 - [Number of Connected Components](https://www.geeksforgeeks.org/connected-components-in-an-undirected-graph/)
 - [Network Delay](https://leetcode.com/problems/network-delay-time/)
+- [All Paths from Source to Target]()
 
 ## Hard
 - [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)

@@ -1,4 +1,4 @@
-
+# On Leetcode: https://leetcode.com/problems/all-paths-from-source-to-target/
 class Solution(object):
     def visit(self, graph, paths, idx=0, path=[]):
         if not graph[idx]:
