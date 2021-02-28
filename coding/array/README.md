@@ -8,6 +8,7 @@ A selection of problems entailing working with arrays and sequences. A mix of ea
 - [Check Equivalent String Arrays](https://leetcode.com/problems/check-if-two-string-arrays-are-equivalent/)
 - [Surface Area 3D Shape](https://leetcode.com/problems/surface-area-of-3d-shapes/)
 - [Largest Triangle Area](https://leetcode.com/problems/largest-triangle-area/)
+- [Check if a Straight Line](https://leetcode.com/problems/check-if-it-is-a-straight-line/)
 
 ## Medium
 - [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
