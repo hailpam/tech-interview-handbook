@@ -16,6 +16,7 @@ A selection of problems entailing working with arrays and sequences. A mix of ea
 - [Non-overlapping Interval](https://leetcode.com/problems/non-overlapping-intervals/)
 - [Matrix Block Sum](https://leetcode.com/problems/matrix-block-sum/)
 - [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/)
+- [Maximum Number of Events to be Attended](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/)
 
 ## Hard
 - [Minimum Window Substring](https://leetcode.com/problems/minimum-window-substring/description/)
