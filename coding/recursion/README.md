@@ -14,3 +14,4 @@ A selection of problems to get familiar with recursion and its intricacies. Recu
 ## Medium
 - [Subsets](https://leetcode.com/problems/subsets/)
 - [Subsets II](https://leetcode.com/problems/subsets-ii/)
+- [Max Consecutive Ones 3](https://leetcode.com/problems/max-consecutive-ones-iii/)
