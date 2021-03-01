@@ -51,6 +51,7 @@ TBD - Queue and Stack problems
 - [Sort Characters by Frequency](https://leetcode.com/problems/sort-characters-by-frequency/)
 - [Range Sum Query Mutable](https://leetcode.com/problems/range-sum-query-mutable/)
 - [Grumpy Bookstore Owner](https://leetcode.com/problems/grumpy-bookstore-owner/)
+- [Exame Room](https://leetcode.com/problems/exam-room/)
 
 ## Hard
 - [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/)
