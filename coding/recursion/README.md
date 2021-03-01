@@ -10,6 +10,7 @@ A selection of problems to get familiar with recursion and its intricacies. Recu
 - [Power of Three](https://leetcode.com/problems/power-of-three/)
 - [Power of Four](https://leetcode.com/problems/power-of-four/)
 - [Student Attendance Record I](https://leetcode.com/problems/student-attendance-record-i/)
+- [Max Consecutive Ones III](https://leetcode.com/problems/max-consecutive-ones-iii/)
 
 ## Medium
 - [Subsets](https://leetcode.com/problems/subsets/)
