@@ -1,5 +1,5 @@
 
-# On Leetcode: https://stackoverflow.com/questions/522563/accessing-the-index-in-for-loops
+# On Leetcode: https://leetcode.com/problems/letter-case-permutation/
 
 class Solution(object):
     def permute(self, string, permutations, idx=0, permutation=[]):
