@@ -7,7 +7,7 @@ class Solution(object):
     
     def repr_minute(self, nums):
         s = sum(nums)
-        return '%d' % s if s >= 10 else  '0%d' % s
+        return '%d' % s if s >= 10 else '0%d' % s
 
     def get_combinations(self, nums, combs, n, idx=0):
         if idx < len(nums):
@@ -27,7 +27,7 @@ class Solution(object):
         combs_hours = [[]]
         self.get_combinations(hours, combs_hours, n)
         combs_minutes = [[]]
-        self. get_combinations(minutes, combs_minutes, n)
+        self.get_combinations(minutes, combs_minutes, n)
 
         combs = set()
         for comb_hour in combs_hours:

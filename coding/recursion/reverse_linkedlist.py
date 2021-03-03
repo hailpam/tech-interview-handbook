@@ -1,5 +1,6 @@
 
 # On Leetcode: https://leetcode.com/problems/reverse-linked-list/
+
 class LinkedList(object):
     def __init__(self, val=0, next=None):
         self.val = val

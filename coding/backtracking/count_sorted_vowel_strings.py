@@ -61,7 +61,7 @@ class Solution(object):
 
         To be noted that the constraint of considering only lexicographically sorted
         sequences reduces drastically the time and space complexity. 
-            """
+         """
         strings = []
         self.build(strings, n)
 

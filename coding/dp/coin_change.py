@@ -51,22 +51,21 @@ def main():
     coins = [1, 2]
     amount = 3
     print(s.coin_change(coins=coins, amount=amount))
-    # coins = [1, 2, 5]
-    # amount = 11
-    # print(s.coin_change(coins=coins, amount=amount))
-    print(s.memo)
-    # coins = [2]
-    # amount = 3
-    # print(s.coin_change(coins=coins, amount=amount))
-    # coins = [1]
-    # amount = 0
-    # print(s.coin_change(coins=coins, amount=amount))
-    # coins = [1]
-    # amount = 1
-    # print(s.coin_change(coins=coins, amount=amount))    
-    # coins = [1]
-    # amount = 2
-    # print(s.coin_change(coins=coins, amount=amount))
+    coins = [1, 2, 5]
+    amount = 11
+    print(s.coin_change(coins=coins, amount=amount))
+    coins = [2]
+    amount = 3
+    print(s.coin_change(coins=coins, amount=amount))
+    coins = [1]
+    amount = 0
+    print(s.coin_change(coins=coins, amount=amount))
+    coins = [1]
+    amount = 1
+    print(s.coin_change(coins=coins, amount=amount))    
+    coins = [1]
+    amount = 2
+    print(s.coin_change(coins=coins, amount=amount))
 
 if __name__ == '__main__':
     main()
