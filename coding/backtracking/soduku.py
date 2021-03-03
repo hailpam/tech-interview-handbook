@@ -11,6 +11,7 @@ class Timer(object):
     
     def stop(self):
         return int((time.time() * 10**6 - self.timestamp) / 10**3)
+
 class Sudoku(object):
     def __init__(self, board):
         """
