@@ -19,7 +19,7 @@ class Solution(object):
         for num in nums:
             if num not in count:
                 count[num] = 1
-            count[num]++
+            count[num] += 1
         
         for num in count:
             if count[num] > 1:

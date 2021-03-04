@@ -1,5 +1,7 @@
 # On Leetcode: https://leetcode.com/problems/max-consecutive-ones-iii/
 
+# TBD - check whether memoization can be adopted to avoid re-calculating things over and over again
+
 class Solution(object):
     def check_backward(self, a, k, idx=0):
         """
