@@ -33,110 +33,185 @@ This project is a collection of already solved problems. Easy (warm ups), Medium
 Each section reports the problems and related solutions, as well as the references to the theory behind it.
 
 ```bash
-coding/
+.
+├── LICENSE
+├── Makefile
 ├── README.md
-├── array
+├── coding
+│   ├── Makefile
 │   ├── README.md
-│   ├── anagram.py
-│   ├── buy_sell_stock.py
-│   ├── container_most_water.py
-│   ├── duplicates.py
-│   ├── group_anagrams.py
-│   ├── insert_interval.py
-│   ├── max_subarray_product.py
-│   ├── max_subarray_sum.py
-│   ├── merge_intervals.py
-│   ├── min_rotated_sorted_array.py
-│   ├── min_window_substring.py
-│   ├── nonoverlapping_interval.py
-│   ├── parentheses.py
-│   ├── product_array_except_self.py
-│   ├── search_rotated_search_array.py
-│   ├── three_sum.py
-│   ├── two_sum.py
-│   └── valid_palindrome.py
-├── backtracking
+│   ├── array
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── anagram.py
+│   │   ├── buy_sell_stock.py
+│   │   ├── check_if_straight_line.py
+│   │   ├── container_most_water.py
+│   │   ├── defanging_ip_address.py
+│   │   ├── duplicates.py
+│   │   ├── equivalent_string_arrays.py
+│   │   ├── group_anagrams.py
+│   │   ├── insert_interval.py
+│   │   ├── largest_triangle_area.py
+│   │   ├── last_stone_weight.py
+│   │   ├── matrix_block_sum.py
+│   │   ├── max_nr_events.py
+│   │   ├── max_subarray_product.py
+│   │   ├── max_subarray_sum.py
+│   │   ├── merge_intervals.py
+│   │   ├── min_rotated_sorted_array.py
+│   │   ├── min_time_visiting_all_points.py
+│   │   ├── min_window_substring.py
+│   │   ├── nonoverlapping_interval.py
+│   │   ├── parentheses.py
+│   │   ├── product_array_except_self.py
+│   │   ├── search_rotated_search_array.py
+│   │   ├── surface_area_3D_shape.py
+│   │   ├── three_sum.py
+│   │   ├── two_sum.py
+│   │   └── valid_palindrome.py
+│   ├── backtracking
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── binary_watch.py
+│   │   ├── combinations.py
+│   │   ├── count_matches_tournament.py
+│   │   ├── count_sorted_vowel_strings.py
+│   │   ├── letter_case_permutation.py
+│   │   ├── maze.py
+│   │   ├── pemutations.py
+│   │   ├── soduku.py
+│   │   └── subsets.py
+│   ├── dp
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── climbing_stairs.py
+│   │   ├── coin_change.py
+│   │   ├── combination_sum.py
+│   │   ├── fibonacci.py
+│   │   ├── hand_of_straights.py
+│   │   ├── house_robber.py
+│   │   ├── jump_game.py
+│   │   ├── lcs.py
+│   │   ├── lis.py
+│   │   ├── unique_paths.py
+│   │   └── word_break.py
+│   ├── ds-and-algo
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── add_search_words.py
+│   │   ├── basic_calculator.py
+│   │   ├── binarytree_maximum_path_sum.py
+│   │   ├── construct_binarytree.py
+│   │   ├── ealuate_rpn.py
+│   │   ├── enc_dec_tiny_url.py
+│   │   ├── exam_room.py
+│   │   ├── expression_add_operators.py
+│   │   ├── find_median_datastream.py
+│   │   ├── find_median_datastream_array.py
+│   │   ├── find_most_competitive_subsequence.py
+│   │   ├── grumpy_bookstore_owner.py
+│   │   ├── implement_heap.py
+│   │   ├── implement_lru_cache.py
+│   │   ├── implement_magic_dict.py
+│   │   ├── implement_map.py
+│   │   ├── implement_min_stack.py
+│   │   ├── implement_queue_using_stacks.py
+│   │   ├── implement_trie.py
+│   │   ├── index_pairs_string.py
+│   │   ├── invert_bst.py
+│   │   ├── is_same_tree.py
+│   │   ├── is_subsequence.py
+│   │   ├── kth_smallest_bst.py
+│   │   ├── level_order_traversal_bt.py
+│   │   ├── linkedlist_cycle.py
+│   │   ├── longest_word_dict.py
+│   │   ├── lowest_common_ancestor_bst.py
+│   │   ├── lowest_common_ancestor_bt.py
+│   │   ├── match_camelcase.py
+│   │   ├── match_delimiters.py
+│   │   ├── max_depth_binarytree.py
+│   │   ├── max_path_sum_bt.py
+│   │   ├── merge_k_sorted_lists.py
+│   │   ├── merge_sorted_lists.py
+│   │   ├── min_nr_meeting_rooms.py
+│   │   ├── moving_average_stream.py
+│   │   ├── range_in_bst.py
+│   │   ├── range_sum_query_mutable.py
+│   │   ├── recent_counter.py
+│   │   ├── remove_nth_node_from_end_list.py
+│   │   ├── reorder_list.py
+│   │   ├── replace_words.py
+│   │   ├── search_in_bst.py
+│   │   ├── serde_bt.py
+│   │   ├── sort_chars_by_frequency.py
+│   │   ├── sort_stack_with_stack.py
+│   │   ├── subtree_bt.py
+│   │   ├── task_scheduler.py
+│   │   ├── top_k_frequent_elems.py
+│   │   ├── validate_bst.py
+│   │   └── wrap_text_in_rectangle.py
+│   ├── graph
+│   │   ├── Makefile
+│   │   ├── README.md
+│   │   ├── all_paths_from_source_to_target.py
+│   │   ├── binary_number_to_integer.py
+│   │   ├── clone_graph.py
+│   │   ├── connected_components.py
+│   │   ├── course_schedule.py
+│   │   ├── destination_city.py
+│   │   ├── is_a_tree.py
+│   │   ├── longest_consecutive_sequence.py
+│   │   ├── network_delay.py
+│   │   ├── nr_of_islands.py
+│   │   ├── nr_of_islands_matrix.py
+│   │   └── pacific_atlantic_water_flow.py
+│   └── recursion
+│       ├── Makefile
+│       ├── README.md
+│       ├── add_digits.py
+│       ├── construct_rectangle.py
+│       ├── max_consecutive_ones_3.py
+│       ├── power_of_four.py
+│       ├── power_of_three.py
+│       ├── rectangle_overlap.py
+│       ├── reverse_linkedlist.py
+│       ├── student_attendance_record_1.py
+│       ├── subsets.py
+│       ├── subsets_2.py
+│       └── symmetric_tree.py
+├── systems
+│   └── README.md
+├── theory
 │   ├── README.md
-│   ├── binary_watch.py
-│   ├── combinations.py
-│   ├── count_matches_tournament.py
-│   ├── maze.py
-│   ├── pemutations.py
-│   ├── soduku.py
-│   └── subsets.py
-├── dp
-│   ├── README.md
-│   ├── climbing_stairs.py
-│   ├── coin_change.py
-│   ├── fibonacci.py
-│   ├── lcs.py
-│   ├── lis.py
-│   ├── unique_paths.py
-│   └── word_break.py
-├── ds-and-algo
-│   ├── README.md
-│   ├── add_search_words.py
-│   ├── binarytree_maximum_path_sum.py
-│   ├── construct_binarytree.py
-│   ├── ealuate_rpn.py
-│   ├── find_median_datastream.py
-│   ├── find_median_datastream_array.py
-│   ├── find_most_competitive_subsequence.py
-│   ├── implement_heap.py
-│   ├── implement_lru_cache.py
-│   ├── implement_magic_dict.py
-│   ├── implement_map.py
-│   ├── implement_min_stack.py
-│   ├── implement_queue_using_stacks.py
-│   ├── implement_trie.py
-│   ├── index_pairs_string.py
-│   ├── invert_bst.py
-│   ├── kth_smallest_bst.py
-│   ├── level_order_traversal_bt.py
-│   ├── linkedlist_cycle.py
-│   ├── longest_word_dict.py
-│   ├── lowest_common_ancestor_bst.py
-│   ├── lowest_common_ancestor_bt.py
-│   ├── match_camelcase.py
-│   ├── match_delimiters.py
-│   ├── max_depth_binarytree.py
-│   ├── max_path_sum_bt.py
-│   ├── merge_k_sorted_lists.py
-│   ├── merge_sorted_lists.py
-│   ├── min_nr_meeting_rooms.py
-│   ├── moving_average_stream.py
-│   ├── recent_counter.py
-│   ├── remove_nth_node_from_end_list.py
-│   ├── reorder_list.py
-│   ├── replace_words.py
-│   ├── serde_bt.py
-│   ├── sort_stack_with_stack.py
-│   ├── subtree_bt.py
-│   ├── task_scheduler.py
-│   ├── top_k_frequente_elems.py
-│   └── validate_bst.py
-├── graph
-│   ├── README.md
-│   ├── binary_number_to_integer.py
-│   ├── clone_graph.py
-│   ├── course_schedule.py
-│   ├── destination_city.py
-│   ├── longest_consecutive_sequence.py
-│   ├── nr_of_islands.py
-│   ├── nr_of_islands_matrix.py
-│   └── pacific_atlantic_water_flow.py
-└── recursion
+│   ├── asymptotic-notation.md
+│   ├── back-of-the-envelope-calculations.md
+│   ├── backtracking.md
+│   ├── combinatorics.md
+│   ├── complexity-analysis.md
+│   ├── dynamic-programming.md
+│   ├── graph.md
+│   ├── imgages
+│   │   └── backtracking
+│   │       ├── maze-gametree.png
+│   │       └── maze.png
+│   ├── np-completeness-hardness.md
+│   ├── subarray-subsequence-substring-subset.md
+│   ├── systems-design.md
+│   └── traversals.md
+└── transversals
+    ├── Behavioral.md
+    ├── Leadership.md
+    ├── Management.md
     ├── README.md
-    ├── add_digits.py
-    ├── construct_rectangle.py
-    ├── power_of_four.py
-    ├── power_of_three.py
-    ├── rectangle_overlap.py
-    ├── reverse_linkedlist.py
-    ├── student_attendance_record_1.py
-    ├── subsets.py
-    ├── subsets_2.py
-    └── symmetric_tree.py
+    ├── gca.md
+    └── project-management.md
 
-6 directories, 97 files
+12 directories, 160 files
 ```
+
+# References
+
+- [LeetCode](https://leetcode.com/explore/)
+- [GeeksForGeeks](https://www.geeksforgeeks.org/must-do-coding-questions-for-companies-like-amazon-microsoft-adobe/?ref=shm)
+- [Daily Coding Problem](https://github.com/Jedshady/daily-coding-problem)
