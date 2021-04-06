@@ -15,6 +15,8 @@ In pictures:
 
 # Time Complexity in Python
 
+TBD - 
+
 # References
 - [Big-O Notation on Wikipedia](https://en.wikipedia.org/wiki/Big_O_notation)
 - [Time Complexity in Python](https://wiki.python.org/moin/TimeComplexity)
