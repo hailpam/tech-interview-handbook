@@ -29,7 +29,7 @@ TBD - Solve those and link the Google Drive for the solution (helps practicing).
 
 # References
 
--  [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
+- [Grokking the System Design Interview](https://www.educative.io/courses/grokking-the-system-design-interview)
 - [System Design Interview with ex-Googler](https://www.youtube.com/watch?v=q0KGYwNbf-0)
 - [Non-Abstact Design](https://sre.google/workbook/non-abstract-design/)
 - [What to Think During NALSD Interview](https://habr.com/en/company/google/blog/436186/)
