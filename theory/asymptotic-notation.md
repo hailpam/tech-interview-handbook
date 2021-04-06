@@ -15,7 +15,9 @@ In pictures:
 
 # Time Complexity in Python
 
-TBD - 
+Referring to the [official Wiki page](https://wiki.python.org/moin/TimeComplexity), it is possible to look at the time complexity of the typical functions within the Python ecosystem. 
+
+It is worth remembering that Python implements an efficient sorting function: [timsort](http://svn.python.org/projects/python/trunk/Objects/listsort.txt) which is extremely efficient for partially sorted arrays. An adaptive and stable variant of the natural merge sort, requiring as few as N-1 comparisons in the best case.
 
 # References
 - [Big-O Notation on Wikipedia](https://en.wikipedia.org/wiki/Big_O_notation)
