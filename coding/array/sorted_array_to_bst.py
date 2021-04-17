@@ -1,3 +1,4 @@
+# On Leetcode: https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree
 
 class TreeNode(object):
     def __init__(self, val=0, left=None, right=None):
@@ -31,6 +32,20 @@ class Solution(object):
             self.visit(root.right, output)
 
     def level_order(self, root):
+        '''
+        Main idea: implement a level order traversal to serialize the BST.
+
+        0
+          3
+            -10
+          9
+            5
+        
+        > 0                 - root, add
+          > 3, 9            - leaves, add
+            > 10, None      - leaves, add
+            > 5, None       - leaves, add
+        '''
         output = [root.val]
         self.visit(root, output)
 
