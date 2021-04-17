@@ -43,6 +43,10 @@ def main():
     s.move_zeros(nums)
     print(nums)             # [1, 3, 12, 0, 0]
 
+    nums = [0,1,0,0,0,3,12,0]
+    s.move_zeros(nums)
+    print(nums)             # [1, 3, 12, 0, 0, 0, 0, 0]
+
     nums = [0]
     s.move_zeros(nums)
     print(nums)             # [0]
