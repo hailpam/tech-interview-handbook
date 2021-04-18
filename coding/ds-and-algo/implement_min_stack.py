@@ -71,7 +71,7 @@ def main():
     print(ms.get_min())      # -3
 
     ms.pop()
-    ms.top()                # 0
+    ms.top()                 # 0
     print(ms.get_min())      # -2
 
 if __name__ == '__main__':
