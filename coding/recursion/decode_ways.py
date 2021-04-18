@@ -37,18 +37,18 @@ class Solution(object):
 
         Using a sliding window approach of size 2:
 
-        226
-        ^
-         *
-        
-        226
-         ^
-          *
+            226
+            ^
+             *      size 2 window -> [22, 6]
+            
+            226
+             ^
+              *     size 2 window -> [2, 26]
 
-        226
-          ^
-        **
-        Browsing it: [1, 2] and [12]
+            226
+              ^     size 1 window -> [2,2,6]
+        
+        According to the above sliding logic window, the viable solutions would be: [[22, 6], [2, 26], [2,2,6]]
         '''
         combinations = []
         self.combine(s, idx=0, combinations=combinations)
@@ -63,7 +63,6 @@ class Solution(object):
                     s.append(self.symbols[int(code)])
                 if s:
                     encoded.append(''.join(s))
-
             return encoded
         return []
 
