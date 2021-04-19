@@ -45,6 +45,12 @@ A few takeaways:
 Worth watching also this [video](https://www.youtube.com/watch?v=zKPNUMkwOJE) which walks through a solution.
 
 ## Designing Dropbox
+A viable solution can be found [here](https://docs.google.com/drawings/d/1qU8GLYwZ7sYXDvI1bztujJU_G1FDZjdHE6H6qVI6F0I/edit?usp=sharing).
+
+A few takeaways:
+- Scaling an object storage might be difficult meanwhile ensuring reliability: partitioning/sharding needs to be carefully thought
+- Full-text search impact on the overall storage canno be neglected, in particular search volumes may impact on the bandwidth relevantly
+- It is always important to keep reads and writes separated, to avoid scalability issues: patterns and so curves of scalability are tendentially different
 
 ## Designing Typeahead Suggestion
 
