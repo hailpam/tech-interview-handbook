@@ -39,9 +39,12 @@ A few takeaways:
 - To accommodate the scale, the generation of unique identifiers is required to re-concile the information
 
 ## Designing YouTube
+A viable solution can be found [here](https://docs.google.com/drawings/d/1uJpAFO8lpkdXaAnc8PyCGdY7bNepzUUWPaHWtKSItrg/edit?usp=sharing).
+
+A few takeaways:
+- TBD
 
 ## Designing Facebook Messenger
-
 Worth watching also this [video](https://www.youtube.com/watch?v=zKPNUMkwOJE) which walks through a solution.
 
 ## Designing Dropbox
