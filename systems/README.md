@@ -42,10 +42,17 @@ A few takeaways:
 A viable solution can be found [here](https://docs.google.com/drawings/d/1uJpAFO8lpkdXaAnc8PyCGdY7bNepzUUWPaHWtKSItrg/edit?usp=sharing).
 
 A few takeaways:
-- TBD
+- Very large objects like videos are hard to scale and keep reliably: the amount of storage may be prohibitive, and it might be worth looking at alternatives to pure replication
+- Streaming very large amount of data poses challenges in terms of scalability of the front-end services which might be able to load balance according to the less busy service
 
 ## Designing Facebook Messenger
 Worth watching also this [video](https://www.youtube.com/watch?v=zKPNUMkwOJE) which walks through a solution.
+
+A few takeaways:
+- Thinking about mobile devices is tricky: it is required to track the health and the sessions.
+- A few helper tables are required to make the communication happen.
+- The platform should work as a store and forward solution which allows to deal with users which are offline but are addressed by messages.
+- Implementing security might become straighforward using helper tables and leveraging pre-known encryption keys: devices themselves encrypt, the data will be stored encrypted on the storage.
 
 ## Designing Dropbox
 A viable solution can be found [here](https://docs.google.com/drawings/d/1qU8GLYwZ7sYXDvI1bztujJU_G1FDZjdHE6H6qVI6F0I/edit?usp=sharing).
@@ -56,14 +63,21 @@ A few takeaways:
 - It is always important to keep reads and writes separated, to avoid scalability issues: patterns and so curves of scalability are tendentially different
 
 ## Designing Typeahead Suggestion
-
 Worth watching also this [video](https://www.youtube.com/watch?v=fMZMm_0ZhK4) which walks through a solution.
 
+A few takeaways:
+- Distributed Tries are very handy to implement prefix-based search.
+- Ranking may be stored directly in the Trie, requiring then some special attention in terms of scalability.
+- Ingestion and data collection for ranking is a challenging task in its own: prefixes need to be ranked in order to provide a relevant and precise user experience.
+
 ## Designing Facebook's Newsfeed
+TBD. Maybe, a good exercise! :)
 
 ## Designing Yelp!
+TBD. Maybe, a good exercise! :)
 
 ## Designing Uber
+TBD. Maybe, a good exercise! :)
 
 # References
 
