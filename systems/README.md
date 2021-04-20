@@ -24,6 +24,8 @@ A few takeaways:
 ## Designing Instagram
 Referring to the [educative.io solution](https://www.educative.io/courses/grokking-the-system-design-interview/m2yDVZnQ8lG) which is well structured.
 
+Worth watching also this [video](https://www.youtube.com/watch?v=VJpfO6KdyWE) which walks through a solution.
+
 A few takeways:
 - For massive amount of data, it is challenging to design an object storage able to scale.
 - Metadata can be still on a relational database, pointing to an object in the object storage.
@@ -46,7 +48,7 @@ A few takeaways:
 - Streaming very large amount of data poses challenges in terms of scalability of the front-end services which might be able to load balance according to the less busy service
 
 ## Designing Facebook Messenger
-Worth watching also this [video](https://www.youtube.com/watch?v=zKPNUMkwOJE) which walks through a solution.
+Worth watching also this [video](https://www.youtube.com/watch?v=zKPNUMkwOJE) and this [other] one which walk through a solution.
 
 A few takeaways:
 - Thinking about mobile devices is tricky: it is required to track the health and the sessions.
@@ -70,6 +72,15 @@ A few takeaways:
 - Ranking may be stored directly in the Trie, requiring then some special attention in terms of scalability.
 - Ingestion and data collection for ranking is a challenging task in its own: prefixes need to be ranked in order to provide a relevant and precise user experience.
 
+## Designing TikTok
+Worth watching also this [video](https://www.youtube.com/watch?v=Z-0g_aJL5Fw&t=36s) which walks through a solution.
+
+A few takewaways:
+- Like for the YouTube case, the video size might be an issue and the caching is very important
+- Two important levels of caching: internal caching and external caching. Internal caching might be just a simple Redis/Memcached, instead external caching might be a CDN.
+- Separation of endpoints and specific design for each it is very important: make sure that there is consistency.
+- The choice between SQL Vs NoSQL is subtle. In case of metadata, if the volumes are not outrageously big, SQL might work just fine as it is very optimized for write and read.
+
 ## Designing Facebook's Newsfeed
 TBD. Maybe, a good exercise! :)
 
@@ -78,6 +89,8 @@ TBD. Maybe, a good exercise! :)
 
 ## Designing Uber
 TBD. Maybe, a good exercise! :)
+
+
 
 # References
 
@@ -88,3 +101,4 @@ TBD. Maybe, a good exercise! :)
 - [Designing Distributed Systems Using NALSD Flashcards](https://cloud.google.com/blog/products/management-tools/sre-principles-and-flashcards-to-design-nalsd)
 - [My Path to Site Reliability Manager](https://danrl.com/writing/path-to-srm/)
 - [System Design Interview](https://github.com/checkcheckzz/system-design-interview)
+- [System Design Interview Channel](https://www.youtube.com/channel/UC9vLsnF6QPYuH51njmIooCQ)
