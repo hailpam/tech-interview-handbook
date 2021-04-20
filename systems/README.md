@@ -8,6 +8,8 @@ Pillars to go through this section are:
 
 Please, refer to the theory section for a selection of refreshers on the topic.
 
+This [video](https://www.youtube.com/watch?v=UzLMhqg3_Wc) is a nice walkthrough about all skills required to tackle successfully a system design interview.
+
 # Problems
 Hereafter, the links to a few representative problems solved in all its parts. Solutions adopt the guidelines and framework shared in the theory section. 
 
