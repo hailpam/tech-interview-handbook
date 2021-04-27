@@ -1,5 +1,5 @@
 
-# On Leetcode: https://leetcode.com/problems/subsets/
+# On Leetcode: https://leetcode.com/problems/subsets/ 
 
 class Solution(object):
     def is_within_boundaries(self, idx, nums):
@@ -39,13 +39,32 @@ class Solution(object):
 
         return combs
 
+
+
 def main():
     s = Solution()
 
+    # import sys
+    # import os
+
+    
+    # print(os.path.abspath(__file__))
+    # print(os.path.dirname(os.path.abspath(__file__)))
+    # print(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    # print(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+    
+    # sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+    # sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
+    # print(sys.path)
+
+    from coding import test
+
     nums = [1, 2, 3]
     print(s.subsets(nums))
+    test(nums, [[], [1], [1, 2], [1, 2, 3], [1, 3], [2], [2, 3], [3]], s.subsets(nums))
     nums = [1, 2, 3, 4]
     print(s.subsets(nums))
+    test(nums, [[], [1], [1, 2], [1, 2, 3], [1, 2, 3, 4], [1, 2, 4], [1, 3], [1, 3, 4], [1, 4], [2], [2, 3], [2, 3, 4], [2, 4], [3], [3, 4], [4]], s.subsets(nums))
 
 if __name__ == '__main__':
     main()
