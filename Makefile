@@ -1,7 +1,7 @@
 
 .PHONY: run all
 
-run:
+run: display
 	for d in ./*; \
 	do \
 	  echo "top folder: $$d"; \
@@ -10,5 +10,8 @@ run:
 	    make -C $$d; \
 	  fi \
 	done
+
+display:
+	tree | grep .py | grep -v __init__ | wc -l
 
 all: run
