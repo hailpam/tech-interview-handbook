@@ -45,7 +45,7 @@ Permutations can be built recursively, leveraging backtracking:
             r
 
 Debug:
- 
+
 rat, [], []:
     r
         a
@@ -125,6 +125,12 @@ def main():
     word = 'tar'
     a.index_word(word)
     print(a.lookup_words('art'))     # expected rat and tar
+    word = 'rates'
+    a.index_word(word)
+    print(a.lookup_words('tears'))   # expected rates
+    word = 'tears'
+    a.index_word(word)
+    print(a.lookup_words('stare'))   # expected rates and tears
 
 if __name__ == '__main__':
     main()
