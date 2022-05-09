@@ -20,7 +20,10 @@ The coding section provides a collection of problems solved adopting the Python 
 
 # Caution Note
 Rejection is part of the life, and makes us a better version of ourselves. Preparation is a very important factor when it comes to success, but it does not have to be intended as they key to success: there are cases when even preparing, working hard on the preparation, do not make us clear up the interview process. 
-On this line of thought, this [reading](https://leetcode.com/discuss/interview-experience/942008/google-l4-zurich-sept-nov-2020-reject) might be beneficial.
+On this line of thought, this [reading](https://leetcode.com/discuss/interview-experience/942008/google-l4-zurich-sept-nov-2020-reject) might be beneficial and set exepctations.
+
+# Recommendation
+Before of each round, take between 3 to 5 minutes to meditate and visualize the interview with a positive mindset. This helps to get into the framework to being able to answer the questions according to the expectations: for big tech, the hiring bar is very high, and details count, so a coding problem solved brilliantly and on-time forgetting that single corner case or even to report to the interviewer an obvious time complexity can play massively against the hire decision.
 
 # References
 - [Google Coding Inteview from Educative](https://www.educative.io/blog/google-coding-interview)
