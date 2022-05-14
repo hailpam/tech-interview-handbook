@@ -31,9 +31,9 @@ def dfs(root, value):
 
 def main():
     '''
-        1
-      5   10
-        7    11
+          1
+       5     10
+           7    11
     '''
     five = Node(5)
     seven = Node(7)
@@ -45,6 +45,11 @@ def main():
     print(11, dfs(one, 11))
     print(21, dfs(one, 21))
 
+    '''
+          1
+       5     10
+    3      7    11
+    '''
     three = Node(3)
     five = Node(5, three)
     one = Node(1, five, ten)
