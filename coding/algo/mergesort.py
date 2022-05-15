@@ -65,5 +65,8 @@ def main():
     array = [1]
     print(array, sort(array))
 
+    array = list('mergesort')
+    print(''.join(array), ''.join(sort(array)))
+
 if __name__ == '__main__':
     main()

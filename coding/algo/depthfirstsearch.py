@@ -5,6 +5,9 @@ consists in keeping an index with visited nodes to avoid loops.
 '''
 
 class Node(object):
+    '''
+    For the sake of simplicity, let's use a binary tree.
+    '''
     def __init__(self, value, left=None, right=None):
         self.value = value
         self.left = left
