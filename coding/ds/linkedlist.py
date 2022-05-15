@@ -37,8 +37,8 @@ class LinkedList(object):
     def remove(self, value):
         ancestor, sibling = self.__search(self.head, value)
         # removing a tail element, got to associate the tail to the previous element
-        # if not sibling.next:
-        #     self.tail = ancestor
+        if sibling and not sibling.next:
+            self.tail = ancestor
         # got to link the ancestor and its sibling
         if ancestor and sibling:
             ancestor.next = sibling.next
@@ -111,6 +111,9 @@ def main():
     print(True, llist.remove(3))
     llist.prettyprint()
     print(True, llist.remove(23))
+    llist.prettyprint()
+
+    llist.add(111)
     llist.prettyprint()
 
 if __name__ == '__main__':

@@ -110,5 +110,8 @@ def main():
     print(True, llist.remove(23))
     llist.prettyprint()
 
+    llist.add(111)
+    llist.prettyprint()
+
 if __name__ == '__main__':
     main()
