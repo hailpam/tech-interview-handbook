@@ -15,8 +15,10 @@ def prettyprint(root, indent=0):
 def nr_leftnode(root, count=0):
     if not root:
         return 0
-    count += nr_leftnode(root.left, count + 1)
-    count += nr_leftnode(root.right, 0)
+    # on the left, count equals to 1
+    count += nr_leftnode(root.left, 1)
+    # on the right, count equals to 0
+    count += nr_leftnode(root.right)
     return count
 
 def main():
